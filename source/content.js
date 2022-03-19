@@ -1,4 +1,5 @@
 import optionsStorage from './options-storage.js';
+import * as classes from './my.module.css'
 
 async function init() {
 	const options = await optionsStorage.getAll();
